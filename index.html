@@ -2,36 +2,63 @@
 <html>
     <head>
         <style>
-         body {
-            font-family: "Crimson Text", Garamond, "Times New Roman", serif;
-            background-color: rgb(250, 243, 221);
-            font-size: 35px;
-            color: rgb(94, 100, 114);
+              body {
+            font-family: Georgia, Times, "Times New Roman", serif; 
+            background-color: rgb(163, 206, 241);
+            font-size: 13px;
+            color: rgb(39, 76, 119);
         }
         a:link {
-            color: rgb(94, 100, 114);
+            color: rgb(39, 76, 119);
         }
         a:visited {
-            color: rgb(174, 217, 224);
+            color: rgb(139, 140, 137);
         }
         a:hover {
-            background-color: rgb(250, 243, 221);
+            background-color: rgb(96, 150, 186);
         }
         #titlediv {
-            border-bottom: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            margin-right: -20px;
-            margin-left: -20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size:39px;
+            background-color: rgb(231, 236, 239);
+            font-size: 39px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            width: 99%;
+            border: 5px solid rgb(96, 150, 186);
+            box-shadow: 5px 5px 20px rgb(139, 140, 137);
         }
-        #megadiv {
-            position: absolute;
-            padding-left: 7px;
-            padding-right: 7px;
-            margin-top: -29px;
+        #links {
+            text-align: center;
+            background-color: rgb(231, 236, 239);
+            margin-right: 5px;
+            margin-left: 5px;
+            text-align: center;
+            padding: 5px;
+            clear: both;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 5px solid rgb(96, 150, 186);
+            box-shadow: 5px 5px 20px rgb(139, 140, 137);
+        }
+        .column.main {
+            width: 99%;
+            margin-top: 30px;
+            padding: 2px;
+            margin-right: 10px;
+            margin-left: 10px;
+            background-color: rgb(163, 206, 241);
+        }
+        .sotto {
+            background-color: rgb(231, 236, 239);
+            border: 5px solid rgb(96, 150, 186);
+            padding: 10px;
+            margin-bottom: 20px;
+            box-shadow: 5px 5px 20px rgb(139, 140, 137);
+        }
+        .column.side {
+            width: 30%;
+            margin-left: 10px;
+            margin-top: 30px;
+            background-color: rgb(163, 206, 241);
         }
         #title {
             text-align: center;
@@ -40,32 +67,45 @@
             margin-top: -15px;
         }
         #psmall {
-            font-size: 20px;
-        }
-        #div2 {
-            width: 28%;
-            float: right;
-            border: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            padding-left: 7px;
-            padding-right: 7px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            font-size: 30px;
+            font-size: 25px;
         }
         #piccolo {
-            border-top: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            margin-right: -20px;
-            margin-left: -20px;
+            font-size: 10px;
+            background-color: rgb(231, 236, 239);
+            margin-right: 5px;
+            margin-left: 5px;
             text-align: right;
-            padding-bottom: 20px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
+            padding: 5px;
+            clear: both;
+            margin-top: 20px;
+            border: 5px solid rgb(96, 150, 186);
+            box-shadow: 5px 5px 20px rgb(139, 140, 137);
+        }
+        #div2 {
+            width: 35%;
+            height: 300px;
+            float: right;
+            border: 5px solid rgb(96, 150, 186);
+            background-color: rgb(163, 206, 241);
+            padding-left: 7px;
+            padding-right: 7px;
+            font-size: 40px;
+            margin-right: 7px;
+            box-shadow: 5px 5px 20px rgb(163, 206, 241);
         }
        #img {
             float: left;
        }
        #img2 {
             float: right;
+       }
+       #home {
+           position: fixed;
+           right: 20px;
+           bottom: 20px;
+       }
+       .column {
+           background-color: rgb(255, 255, 255);
        }
        .rubrica {
             width: 67%;
@@ -90,24 +130,17 @@
     <body>
    <div id="megadiv">
         <div id="titlediv"><h1 id="title">Just a Bookworm</h1></div>
-        <p>Potete trovare alcuni miei profili anche a questi links.</p>
+       
+       <div class="column main"> 
+       <div class="sotto" style="text-align: center; font-size: 13px;"><p> You don't know Italian? See <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-english/">here</a> the English version ;) !</p></div>
         
-         <div id="div2">
-          <h3>Colonna dei contenuti:</h3>
-        <ul id="vicino">
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io/">HOME</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film/">recensioni di film e serie TV</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-libri/">recensioni di libri</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica/">rubrica di discussione</a></li>
-        </ul>
-        <p id="vicino"> you don't know Italian? See <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-english/">here</a> the English version ;) !</p>
-        </div>
-
-        <p> <a href="https://www.instagram.com/rana_lettrice/">Instagram</a>; fino a inizio maggio 2020 recensivo libri ai quali facevo delle foto e postavo su Instagram la foto e la recensione. Ora non uso più quella pagina, ma se vi interessa ho recensito tantissimi libri che potete andare a vedermi.<br><br>
-       <a href="https://tellonym.me/ranalettrice">Tellonym</a>; dove potete farmi domande o critiche riguardo alle recensioni o ad altro. Potete anche consigliarmi libri e argomenti per le rubriche.<br><br>
-       <a href="https://www.goodreads.com/rana_lettrice">Goodreads</a>; l'ho appena scaricato, ma sembra interessante e utile, vorrei rimanere attiva anche lì postando recensioni dei libri che leggo in inglese. <br><br>
-            <a href="https://www.rottentomatoes.com/user/id/978816989">RottenTomatoes</a>; qui scrivo recensioni più brevi di film (o serie TV) che vedo. Trovo più difficile scrivere una recensione completa di un film rispetto che a una di un libro, quindi non recensisco su questo sito tutti i film che vedo, ma su RottenTomatoes sì.<p>
+        <div class="sotto"><p>Potete trovare alcuni miei profili anche a questi links.</p>
+        
+        <ul><li><a href="https://www.instagram.com/rana_lettrice/">Instagram</a>; fino a inizio maggio 2020 recensivo libri ai quali facevo delle foto e postavo su Instagram la foto e la recensione. Ora non uso più quella pagina, ma se vi interessa ho recensito tantissimi libri che potete andare a vedermi.</li>
+            <li><a href="https://tellonym.me/ranalettrice">Tellonym</a>; dove potete farmi domande o critiche riguardo alle recensioni o ad altro. Potete anche consigliarmi libri e argomenti per le rubriche.</li>
+            <li><a href="https://www.goodreads.com/rana_lettrice">Goodreads</a>; l'ho appena scaricato, ma sembra interessante e utile, vorrei rimanere attiva anche lì postando recensioni dei libri che leggo in inglese. </li>
+            <li><a href="https://www.rottentomatoes.com/user/id/978816989">RottenTomatoes</a>; qui scrivo recensioni più brevi di film (o serie TV) che vedo. Trovo più difficile scrivere una recensione completa di un film rispetto che a una di un libro, quindi non recensisco su questo sito tutti i film che vedo, ma su RottenTomatoes sì.<ul>
        <p id="psmall" style="font-size: 20px;">Non mi vengono idee per altri link che potrei aggiungere, se voi vorreste altri contenuti scrivetemi tutto sempre su Tellonym.</p>
-        </div>
+                </div></div>
     </body>
 </html>
